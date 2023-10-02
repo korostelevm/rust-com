@@ -6,7 +6,7 @@
 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ls -la /root/.cargo/bin && echo $PATH && cargo build --release && cp ./package.json ./target/release/",
+    "build": "ls -la /root && echo 'sadf' && ls -la /root/.cargo/bin && echo $PATH && cargo build --release && cp ./package.json ./target/release/",
     "start": "./com-rust"
   },
   "repository": {
