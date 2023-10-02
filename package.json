@@ -6,7 +6,7 @@
 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "export RUSTUP_HOME=/usr/local/rustup && env | sort &&  echo $PATH && cargo build --release && ls -la && cp ./package.json ./target/release/",
+    "build": "export RUSTUP_HOME=/usr/local/rustup && env | sort &&  echo $PATH && cargo build --release && ls -la && cp ./package.json ./target/release/ && rm -rf ./target/release/deps && rm -rf .target/release/build",
     "start": "./com-rust"
   },
   "repository": {
