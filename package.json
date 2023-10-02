@@ -1,0 +1,22 @@
+{
+  "name": "com-rust",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cargo build --release && cp ./package.json ./target/release/",
+    "start": "./com-rust"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/korostelevm/rust-com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/korostelevm/rust-com/issues"
+  },
+  "homepage": "https://github.com/korostelevm/rust-com#readme"
+}
